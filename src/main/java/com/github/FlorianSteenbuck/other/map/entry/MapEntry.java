@@ -1,4 +1,4 @@
-package org.schabi.newpipe.map.entry;
+package com.github.FlorianSteenbuck.other.map.entry;
 
 public interface MapEntry {
 }

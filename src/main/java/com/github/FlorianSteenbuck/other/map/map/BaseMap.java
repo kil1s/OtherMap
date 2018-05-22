@@ -1,7 +1,7 @@
-package org.schabi.newpipe.map.map;
+package com.github.FlorianSteenbuck.other.map.map;
 
-import org.schabi.newpipe.map.entry.MapEntry;
-import org.schabi.newpipe.map.entry.ProtoEntry;
+import com.github.FlorianSteenbuck.other.map.entry.MapEntry;
+import com.github.FlorianSteenbuck.other.map.entry.ProtoEntry;
 
 import java.util.Iterator;
 

@@ -1,6 +1,4 @@
-package org.schabi.newpipe.map.entry;
-
-import java.util.Objects;
+package com.github.FlorianSteenbuck.other.map.entry;
 
 public abstract class BaseEntry<K, V> extends ProtoEntry<K> {
     public abstract V getValue();
@@ -10,12 +8,15 @@ public abstract class BaseEntry<K, V> extends ProtoEntry<K> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         BaseEntry<?, ?> that = (BaseEntry<?, ?>) o;
-        return Objects.equals(getKey(), that.getKey()) &&
-                Objects.equals(getValue(), that.getValue());
+        return getKey().equals(that.getKey()) &&
+                getValue().equals(that.getValue());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getKey(), getValue());
+        int hash = 1;
+        hash = hash * 17 + (getKey() == null ? 0 : getKey().hashCode());
+        hash = hash * 31 + (getValue() == null ? 0 : getValue().hashCode());
+        return hash;
     }
 }

@@ -1,6 +1,6 @@
-package org.schabi.newpipe.map.map;
+package com.github.FlorianSteenbuck.other.map.map;
 
-import org.schabi.newpipe.map.entry.EntireEntry;
+import com.github.FlorianSteenbuck.other.map.entry.EntireEntry;
 
 import java.util.ArrayList;
 import java.util.List;
