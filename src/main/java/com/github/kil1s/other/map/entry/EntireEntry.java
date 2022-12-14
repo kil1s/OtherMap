@@ -1,4 +1,4 @@
-package com.github.FlorianSteenbuck.other.map.entry;
+package com.github.kil1s.other.map.entry;
 
 public class EntireEntry<K, V> extends BaseEntry<K, V> {
     protected K key;

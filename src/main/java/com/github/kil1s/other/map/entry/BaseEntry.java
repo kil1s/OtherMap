@@ -1,4 +1,4 @@
-package com.github.FlorianSteenbuck.other.map.entry;
+package com.github.kil1s.other.map.entry;
 
 public abstract class BaseEntry<K, V> extends ProtoEntry<K> {
     public abstract V getValue();

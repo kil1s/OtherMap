@@ -1,6 +1,6 @@
-package com.github.FlorianSteenbuck.other.map.map;
+package com.github.kil1s.other.map.map;
 
-import com.github.FlorianSteenbuck.other.map.entry.EntireEntry;
+import com.github.kil1s.other.map.entry.EntireEntry;
 
 import java.util.ArrayList;
 import java.util.List;

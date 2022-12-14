@@ -1,7 +1,6 @@
-package com.github.FlorianSteenbuck.other.map.map;
+package com.github.kil1s.other.map.map;
 
-import com.github.FlorianSteenbuck.other.map.entry.MapEntry;
-import com.github.FlorianSteenbuck.other.map.entry.ProtoEntry;
+import com.github.kil1s.other.map.entry.MapEntry;
 
 import java.util.Iterator;
 
